@@ -90,5 +90,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
+  const resetButton = document.getElementById("resetButton");
+
+  resetButton.addEventListener("click", () => {
+    // Rafraîchir la page
+    location.reload();
+  });
+
+
   renderBoard();
 });
